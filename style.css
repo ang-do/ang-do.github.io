@@ -1,0 +1,205 @@
+#box-container {
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+#box-1 {
+    background-color: black;
+    order: 1;
+    height: 100px;
+    width: 500px;
+    padding-left: 25px;
+}
+#box-2 {
+    background-color: gold;
+    order: 2;
+    height: 100px;
+    width: 200px;
+    padding-left: 25px;
+}
+#box-3 {
+    background-color: black;
+    order: 3;
+    height: 100px;
+    width: 200px;
+    padding-left: 25px;
+}
+#box-4 {
+    background-color: black;
+    order: 4;
+    height: 100px;
+    width: 200px;
+    padding-left: 25px;
+}
+#box-5 {
+    background-color: black;
+    order: 5;
+    height: 100px;
+    width: 200px;
+    padding-left: 25px;
+}
+h1{
+    color: gold;
+    font-family: Helvetica, sans-serif ;
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+#yellow-text{
+    color: gold;
+}
+.up{
+    color: gray;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 40px;
+}
+#black-text{
+    color: black;
+}
+#home{
+    color: black;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 40px;
+}
+.smaller-image{
+    width: 88em;
+}
+
+.bg-image {
+    background-image: url("https://www.discovergreece.com/sites/default/files/styles/sc_1920x1000/public/2020-02/shutterstock_1188663136_aerial_view_of_the_old_stone_bridge_in_klidonia_zagoria_in_the_autumn_epirus_western_greece._this_arch_bridge_with_elongated_arch_built_in_1853.jpg?itok=FyKB6sJe");
+    filter: blur(5px);
+    -webkit-filter: blur(4px);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-text {
+    background-color: rgb(0,0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+.button{
+    color: black;
+    background-color: gold;
+    font-family: Helvetica, sans-serif;
+}
+h2{
+    font-family: Helvetica, sans-serif;
+    size: 10px;
+    color: white;
+}
+.word{
+    color:gold;
+}
+
+p{
+    font-family: Helvetica, sans-serif;
+}
+
+div.gallery {
+    margin: 40px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 380px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    size: 50px;
+    font-family: Helvetica, sans-serif;
+}
+legend{
+    text-align: center;
+}
+fieldset{
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+}
+#fone{
+    background-color: #FFFFE0;
+}
+
+h4{
+    color: black;
+    font-family: Helvetica, sans-serif ;
+    text-align: center;
+    font-size: 40px;
+}
+/*#box-footer{*/
+/*    background-color: black;*/
+/*    font-family: Helvetica, sans-serif ;*/
+/*    !*text-align: -moz-center;*!*/
+/*    position: fixed;*/
+/*    !*top: 10px;*!*/
+/*    font-size: 50px;*/
+/*}*/
+div.gallery2 {
+    margin: 40px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 380px;
+}
+
+div.gallery2:hover {
+    border: 1px solid #777;
+    transform: scale(1.1);
+}
+
+div.gallery2 img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc2 {
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    size: 50px;
+    font-family: Helvetica, sans-serif;
+}
+.inherit {
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFE0;
+    color: white;
+    text-align: center;
+}
+#pink{
+    color: #FFFFE0;
+}
+.footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: border-box;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
